@@ -1,0 +1,2 @@
+const b=document.querySelector('.menu');const n=document.querySelector('.nav');if(b&&n){b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false')});}
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>n?.classList.remove('open')));
